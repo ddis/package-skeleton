@@ -1,0 +1,15 @@
+{
+  "name"       : "ddis/package-installer",
+  "type"       : "library",
+  "description": "Installer for base package structure",
+  "license"    : "MIT",
+  "version"    : "1.0.0",
+  "require"    : {
+    "php": "7.2.*"
+  },
+  "autoload"   : {
+    "psr-4": {
+      "Package\\Base\\": "src/"
+    }
+  }
+}

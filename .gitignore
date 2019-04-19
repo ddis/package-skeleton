@@ -1,0 +1,50 @@
+config.php
+/vendor
+.idea
+composer.lock
+
+# codeception
+/tests/_envs/*
+!/tests/_envs/.gitkeep
+/tests/_output/*
+!/tests/_output/.gitkeep
+/tests/_support/_generated/*
+!/tests/_support/_generated/.gitkeep
+
+#cahce
+/cache/*
+!/cache/metadata
+/cache/metadata/*
+!/cache/metadata/.gitkeep
+!/cache/.gitkeep
+
+# Logs and databases
+/logs/*
+!/logs/.gitkeep
+*.sql
+*.sqlite
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
